@@ -1,3 +1,3 @@
 # spring-boot-multidb-example
 
-This project configurates three schemas(MySql) as multi-datasource. 
+This example configurates three schemas(MySql) as multi-datasource. 
