@@ -36,9 +36,10 @@ public class RegularDbConfig {
 
     Properties additionalJpaProperties(){
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", "update");
+        //properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
         properties.setProperty("hibernate.show_sql", "true");
+        properties.setProperty("hibernate.default_schema", "regular");
 
         return properties;
     }

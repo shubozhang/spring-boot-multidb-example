@@ -7,7 +7,7 @@ import lombok.EqualsAndHashCode;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "gold.customer")
+@Table(name = "customer")
 @Data
 @EqualsAndHashCode(exclude = {"id"})
 public class GoldCustomer {
